@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<title>Maha's Dafterdar Game</title>
+</head>
+<script src="code/game.js"></script>
+<script src="code/game_levels.js"></script>
+
+<link rel="stylesheet" href="css/game.css">
+
+<body>
+	<div id="header">
+		<h1 class="title">Let's Play a Game</h1>
+  	</div>
+  	<div id="information">
+  		<p> Collect all the <b>Trophies</b> in order to progress in the game.
+  			<br> But be careful from the <b>Bombs</b> and <b>Ghosts</b>!
+  			<br> Use the arrow keys to move and jump.
+  		</p>
+  	</div>
+  	<script>
+    	runGame(GAME_LEVELS, DOMDisplay);
+  	</script>
+</body>
+</html>

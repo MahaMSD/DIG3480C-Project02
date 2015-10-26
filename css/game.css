@@ -1,0 +1,50 @@
+body{
+	background-color: #F0FFFF;
+	height: 100%;
+    width: 100%; 
+}
+h1 {
+    color: #7B68EE;
+    text-align: center;
+}
+p {
+   font-family: Fraktur;
+   color: #1E90FF;
+   font-size: 25px;
+   text-align: center;
+}
+b{
+   color: #FF0000;
+}
+
+
+.background    { background-image: url("http://s20.postimg.org/5w3sedvgd/Background_Image_For_Game06.png");
+                 table-layout: fixed;
+                 border-spacing: 0;}
+.background td { padding: 0;}
+
+.lava 	{background-image: url("http://s20.postimg.org/5d7vwlit5/Lava.png");}
+.rocket {background-image: url("http://s20.postimg.org/v7homdit5/Enemy_Lava.png");}
+.kill 	{background-image: url("http://s20.postimg.org/3typme83d/Enemy_Bomb.png");}
+.bomb 	{background-image: url("http://s20.postimg.org/ryzf43se1/Enemy_Bomb01.png");}
+.ghost	{background-image: url("http://s20.postimg.org/bybf4vjw9/Enemy_Ghost02.png");}
+.fire	{background-image: url("http://s20.postimg.org/76askx3zt/Fire.png");}
+
+.wall 	{background-image: url("http://s20.postimg.org/nwczirnnd/Brick_Wall.png");}
+.dirt 	{background-image: url("http://s20.postimg.org/6lhzd06m1/Dirt_Image_Trial.png");} 
+.spike 	{background-image: url("http://s20.postimg.org/6iy3q62yh/Spike_Image01.png");}
+.water 	{background-image: url("http://s20.postimg.org/b8o1ertyx/Water_Image.png");}
+.fish 	{background-image: url("http://s20.postimg.org/s6rnecsqh/Water_Image_Fish.png");}
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("http://s20.postimg.org/i0j1vd8c9/Trophy.png");}
+.player { background-image: url("http://s20.postimg.org/ouokl5xmh/player06.png");}
+
+.game { overflow: hidden;
+  		max-width: 900px;
+  		max-height: 750px;
+  		position: relative;}
+
+.lost .player 	{background-image: url("http://s20.postimg.org/9ie74rr7d/Player_Loss02.png");}
+.won .player 	{background-image: url("http://s20.postimg.org/luh3i9f21/Player_Win.png");}
+
